@@ -1,0 +1,268 @@
+body {
+  cursor: none;
+  font-family: Chakra Petch, Helvetica Neue, sans-serif !important;
+}
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(156, 156, 156);
+}
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid hsla(0, 0%, 51%, 0.5);
+}
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+  background-color: #000000;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.nav-link:hover {
+  color: rgb(157, 157, 157);
+}
+.nav-link,
+.navbar-brand {
+  color: white;
+  font-size: 0.8rem;
+}
+.nav-link .navbar-sticky {
+  background: #000000;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.details .decoration-star {
+  left: -200px;
+  width: 500px;
+}
+
+.details-2 .decoration-star {
+  right: -200px;
+  width: 500px;
+}
+
+.contact .decoration-star {
+  left: -300px;
+  width: 600px;
+}
+
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn img {
+  margin-bottom: 0.25rem;
+  width: 18px;
+}
+
+.show {
+  opacity: 1;
+}
+/* From Uiverse.io by Rodrypaladin */
+.button {
+  background-image: linear-gradient(
+    to right bottom,
+    #1cf9cf,
+    #1cf9cf,
+    #1cf9cf,
+    #1cf9cf,
+    #1cf9cf
+  );
+  border: none;
+  font-size: 0.7em;
+  margin-left: 20px;
+  border-radius: 1.1em;
+  padding: 2px;
+  transition: border-top-left-radius 0.2s ease-in,
+    border-top-right-radius 0.2s ease-in 0.15s,
+    border-bottom-right-radius 0.2s ease-in 0.3s,
+    border-bottom-left-radius 0.2s ease-in 0.45s, padding 0.2s ease-in;
+  position: relative;
+  width: fit-content;
+}
+
+.button__int {
+  background-color: #212121;
+  color: white;
+  border-radius: 0.8em;
+  padding: 5px 20px;
+  width: fit-content;
+  transition: all 0.2s ease-in, border-top-left-radius 0.2s ease-in,
+    border-top-right-radius 0.2s ease-in 0.15s,
+    border-bottom-right-radius 0.2s ease-in 0.3s,
+    border-bottom-left-radius 0.2s ease-in 0.45s, padding 0.2s ease-in;
+  font-weight: 600;
+  z-index: -1;
+  box-shadow: -1px -1px 3px -5px rgba(0, 238, 255, 0.8),
+    1px -1px 3px -5px rgba(0, 247, 255, 0.8),
+    1px 1px 3px -5px rgba(0, 255, 94, 0.8), -1px 1px 3px -5px rgb(255, 255, 255);
+}
+
+.button:active .button__int {
+  padding: 10px 30px;
+}
+
+.button:hover {
+  border-radius: 0;
+}
+
+.button:hover .button__int {
+  border-radius: 0;
+}
+
+.button:hover .button__int {
+  box-shadow: -25px -10px 30px -5px rgba(33, 71, 115, 0.7),
+    25px -10px 30px -5px rgba(10, 115, 150, 0.7),
+    25px 10px 30px -5px rgba(255, 174, 0, 0.7),
+    -25px 10px 30px -5px rgba(255, 230, 0, 0.7);
+}
+.black-pass {
+  display: inline-block;
+  position: relative;
+  padding: 1px 20px;
+  text-align: center;
+  background-color: rgba(23, 23, 23, 0.8); /* Dark background */
+  color: white;
+  font-weight: bold;
+  font-size: 8px;
+  text-transform: uppercase;
+  height: 25px;
+  width: 120px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+
+.corner {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+}
+.corners {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.top-left {
+  top: -2px;
+  left: -2px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.top-right {
+  top: -2px;
+  right: -2px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.bottom-left {
+  bottom: -2px;
+  left: -2px;
+  border-right: none;
+  border-top: none;
+}
+
+.bottom-right {
+  bottom: -2px;
+  right: -2px;
+  border-left: none;
+  border-top: none;
+}
+@media (max-width: 768px) {
+  /* Medium screens and up */
+  .buht {
+    display: flex;
+    flex-direction: column;
+    margin-top: -160px;
+  }
+  .fdf {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.pdfd {
+  background-color: #111;
+  border: 1px dashed #ccc;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+.pdfd img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.accordion-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.accordion-button::after {
+  filter: invert(1);
+  border: none;
+}
+.accordion-item {
+  background-color: transparent;
+  color: rgb(152, 152, 152);
+  border-bottom: 1px dashed #ccc;
+}
+.footer {
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+}
+.footer a:hover {
+  color: white;
+}
+.footer-icons a {
+  margin: 0 5px;
+  color: #ccc;
+  font-size: 18px;
+}
+.footer-icons a:hover {
+  color: white;
+}
