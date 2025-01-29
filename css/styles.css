@@ -1,6 +1,7 @@
 body {
   cursor: none;
   font-family: Chakra Petch, Helvetica Neue, sans-serif !important;
+  margin-right: 0;
 }
 .cursor-dot {
   width: 5px;
@@ -110,6 +111,7 @@ body {
     border-bottom-left-radius 0.2s ease-in 0.45s, padding 0.2s ease-in;
   position: relative;
   width: fit-content;
+  height: fit-content;
 }
 
 .button__int {
@@ -118,6 +120,7 @@ body {
   border-radius: 0.8em;
   padding: 5px 20px;
   width: fit-content;
+  height: fit-content;
   transition: all 0.2s ease-in, border-top-left-radius 0.2s ease-in,
     border-top-right-radius 0.2s ease-in 0.15s,
     border-bottom-right-radius 0.2s ease-in 0.3s,
